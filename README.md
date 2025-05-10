@@ -1,9 +1,10 @@
 # ClamAVContextMenuScanReportWin
 Windows ClamAV Context menu Scan and Generate HTML report with Virus references
 
+
 # ClamAV Right-Click Scan Tool for Windows
 
-This tool integrates ClamAV with Windows Explorer's right-click context menu, allowing you to scan any file or folder and generate a professional-looking HTML report with VirusTotal links and signature info.
+This tool integrates ClamAV with Windows Explorer's right-click context menu, allowing you to scan any file or folder and generate a professional-looking HTML report with VirusTotal links and signature info. You can use CLAMAV like any other commericial anticirus scanning tool.
 
 ---
 
@@ -34,14 +35,18 @@ C:\Program Files\ClamAV\freshclam.conf
 
 C:\Program Files\ClamAV
 ├── clamav_scan.bat
-├── claav_context_menu.reg
+├── clamv_context_menu.reg
 ├── scan.ps1
 └── assets
    ├── clean.png
    └── virus.png
    └── file.png
 
-
+- If you are not using standard installation 
+    - Make changes to path in the files clamav_context_menu.reg and scan.ps1 accordingly
+- Doubleclick on clamav_context_menu.reg file and install into registry in enabling the context menu
+- copy assets folder to Desktop 
+Thats it you are ready to enjoy the ClamAV in windows like any other Antivirus program
 ---
 
 ## 🖱️ Enable Right-Click "Scan with ClamAV"
@@ -87,4 +92,3 @@ C:\Program Files\ClamAV
         Avoid clamscan.exe; prefer clamdscan.exe.
 
         Avoid scanning entire C:\ drive unless necessary.
-
