@@ -16,12 +16,13 @@ This tool integrates ClamAV with Windows Explorer's right-click context menu, al
   NOTE: If you install in a different location make path changes accordingly in the .reg file and in .ps1 file
 
 - Ensure the following files are present:
+```
 C:\Program Files\ClamAV\clamscan.exe
 C:\Program Files\ClamAV\clamdscan.exe
 C:\Program Files\ClamAV\freshclam.exe
 C:\Program Files\ClamAV\clamd.conf
 C:\Program Files\ClamAV\freshclam.conf
-
+```
 
 
 - **Update virus definitions** using:
@@ -32,7 +33,7 @@ C:\Program Files\ClamAV\freshclam.conf
 ## 📁 clamav_scan_tool Installation
 
 1. Extract the contents of `clamav_scan_tool.zip` to:
-'''
+```
 C:\Program Files\ClamAV
 ├── clamav_scan.bat
 ├── clamv_context_menu.reg
@@ -41,7 +42,7 @@ C:\Program Files\ClamAV
    ├── clean.png
    └── virus.png
    └── file.png
-'''
+```
 - If you are not using standard installation 
     - Make changes to path in the files clamav_context_menu.reg and scan.ps1 accordingly
 - Doubleclick on clamav_context_menu.reg file and install into registry in enabling the context menu
