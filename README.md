@@ -93,3 +93,8 @@ Thats it you are ready to enjoy the ClamAV in windows like any other Antivirus p
         Avoid clamscan.exe; prefer clamdscan.exe.
 
         Avoid scanning entire C:\ drive unless necessary.
+
+** Sample output **
+![image](https://github.com/user-attachments/assets/0a9e669a-c587-4039-a42b-6bc0831058c5)
+![image](https://github.com/user-attachments/assets/bc5bb811-9f89-45dc-8f24-762b3335c822)
+
