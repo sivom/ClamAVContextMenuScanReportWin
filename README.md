@@ -32,7 +32,7 @@ C:\Program Files\ClamAV\freshclam.conf
 ## 📁 clamav_scan_tool Installation
 
 1. Extract the contents of `clamav_scan_tool.zip` to:
-
+'''
 C:\Program Files\ClamAV
 ├── clamav_scan.bat
 ├── clamv_context_menu.reg
@@ -41,7 +41,7 @@ C:\Program Files\ClamAV
    ├── clean.png
    └── virus.png
    └── file.png
-
+'''
 - If you are not using standard installation 
     - Make changes to path in the files clamav_context_menu.reg and scan.ps1 accordingly
 - Doubleclick on clamav_context_menu.reg file and install into registry in enabling the context menu
